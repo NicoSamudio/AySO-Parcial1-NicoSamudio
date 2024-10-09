@@ -1,15 +1,15 @@
 
-ls /dev/ # Me lista los archivos de los hhd 
+ls /dev/
 
-sudo fdisk /dev/sda # Este comando ejecuto para crear partición
+sudo fdisk /dev/sda
 
-sudo mkfs.ext4 /dev/sdc1 # Comando para formatear disco 
-sudo mkfs.ext4 /dev/sdc2 # Comando para formatear disco 
-sudo mkfs.ext4 /dev/sdc3 # Comando para formatear disco 
-sudo mkfs.ext4 /dev/sdc4 # Comando para formatear disco 
+sudo mkfs.ext4 /dev/sdc1
+sudo mkfs.ext4 /dev/sdc2
+sudo mkfs.ext4 /dev/sdc3
+sudo mkfs.ext4 /dev/sdc4
 
 
-# Resultado de ejecutar el comando lsblk
+
 
 vagrant@Parcial:/home$ lsblk
 NAME   MAJ:MIN RM  SIZE RO TYPE MOUNTPOINTS

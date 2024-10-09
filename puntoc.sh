@@ -1,28 +1,22 @@
-# CREO LOS USUARIOS 
+
 
 sudo useradd tester
 sudo useradd devops
 sudo useradd diseñador
 
 
-# CREO LOS GRUPOS
 sudo groupadd grupodevops
 sudo groupadd grupodiseño
 sudo groupadd grupodeveloper
 
 
-# ASIGNO GRUPOS SECUNDARIOS
 
 sudo usermod -aG grupodevops developer
 sudo usermod -aG grupodiseño tester
 sudo usermod -aG grupodeveloper devops
 
 
-modificar permiosos comando: chmod [opciones] [permisos] archivo_o_carpeta
 
-
-# PRIMER COMANDO ASIGNA DUEÑO A LA CARPETA ALUMNO_X
-# SEFGUNDO COMANDO OTROGA PERMISOS
 
 sudo chgrp developer alumno_1
 sudo chmod 750 alumno_1
@@ -40,7 +34,7 @@ sudo chmod 775 profesores
 
 
 
-vagrant@Parcial:/home/Examenes-UTN$ ll -ls # LISTAMOS LOS PERMISOS DE LAS CARPETAS
+vagrant@Parcial:/home/Examenes-UTN$ ll -ls
 total 24
 4 drwxr-xr-x 6 root      root      4096 Oct  3 23:53 ./
 4 drwxr-xr-x 7 root      root      4096 Oct  4 01:55 ../
